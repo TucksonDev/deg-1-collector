@@ -1,0 +1,33 @@
+{
+    "name": "deg-1-collector",
+    "version": "1.0.0",
+    "description": "Fully onchain game about collecting different types of NFTs",
+    "scripts": {
+        "solhint": "solhint \"contracts/**/*.sol\"",
+        "solhint:fix": "solhint \"contracts/**/*.sol\" --fix",
+        "lint": "eslint \"{scripts,test,tasks}/**/*.ts\"",
+        "lint:fix": "eslint \"{scripts,test,tasks}/**/*.ts\" --fix",
+        "format": "prettier --write \"contracts/**/*.sol\" \"{scripts,test,tasks}/**/*.ts\""
+    },
+    "keywords": [],
+    "author": "Tuckson",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+        "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+        "@nomiclabs/hardhat-etherscan": "^3.1.0",
+        "@openzeppelin/contracts": "^4.7.3",
+        "@typescript-eslint/eslint-plugin": "^5.36.2",
+        "@typescript-eslint/parser": "^5.36.2",
+        "eslint": "^8.23.0",
+        "hardhat": "^2.11.1",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.2.32",
+        "prettier": "^2.7.1",
+        "prettier-plugin-solidity": "^1.0.0-beta.24",
+        "solhint": "^3.3.7"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.2"
+    }
+}
